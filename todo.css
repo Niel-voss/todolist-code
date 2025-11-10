@@ -1,0 +1,149 @@
+.box-prime, .boxprime2{
+  border-radius: 10px;
+  background-color: rgb(101, 155, 155);
+  width: 800px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+
+
+
+body{
+  text-align: center;
+  background-color: rgb(123, 189, 189);
+}
+
+.header{
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: rgb(37, 37, 44);
+}
+
+.input-box{
+  width:500px;
+  border: none;
+  background-color: rgba(103, 103, 111, 0.511);
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 20px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+
+
+
+.insider{
+  display: grid;
+  grid-template-columns: 200px 150px 50px;
+  column-gap: 20px;
+  justify-content: center;
+  position: absolute;
+}
+
+.input, .date-input, .add-btn{
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 7.8px;
+  background-color: lightgoldenrodyellow;
+  padding-left: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.output-box{
+  border-radius: 20px;
+  background-color: rgba(103, 103, 111, 0.511);
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.output-grid{
+   border-radius: 20px;
+  background-color: rgb(101, 155, 155);
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.add-btn{
+  cursor: pointer;
+  background-color: rgb(88, 213, 88);
+  color: white;
+  padding-top: 5px;
+  padding-right: 5px;
+  border-width: 1px;
+}
+
+.add-btn:hover{
+   background-color:rgb(117, 186, 117);
+  transform: translatey(-2px);
+}
+
+.add-btn:active{
+  background-color: rgb(221, 217, 217); 
+  transform: translateY(2px);
+}
+
+
+.name{
+margin: 10px 10px 20px 10px;
+ background-color: rgb(227, 245, 245);
+ border: none;
+ border-radius: 5px;
+ height: 25px;
+ width: 250px;
+ padding-top: 15px;
+
+}
+
+.date{
+  display: inline-block;
+  margin: 10px 10px 20px 10px;
+  background-color: rgb(227, 245, 245);
+   border: none;
+ border-radius: 5px;
+ height: 25px;
+ width: 150px;
+ padding-top: 12px;
+}
+
+.delete-btn{
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.bin-img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+.output-grid{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+
+}
+
+
+
+
+
+
